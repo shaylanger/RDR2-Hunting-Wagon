@@ -580,7 +580,6 @@ void wagon_process_vehicle()
 		{
 			if (wagon_time_taken(wagon_stow_time, 1000))
 			{
-				print_msg_bottom_screen("animal stowed");
 				wagon_stow = false;
 
 				ACTIVATE_PHYSICS(wagon_stow_entity);
