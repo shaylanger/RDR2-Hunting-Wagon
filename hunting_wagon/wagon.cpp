@@ -534,10 +534,6 @@ void wagon_process_vehicle()
 				FREEZE_ENTITY_POSITION(animal_holding, false);
 				SET_ENTITY_COMPLETELY_DISABLE_COLLISION(animal_holding, true, 0);
 
-
-
-				//ATTACH_ENTITY_TO_ENTITY(animal_holding, wagon_spawned_vehicle, wagon_bone, detach_coords.x, detach_coords.y, detach_coords.z + 0.5f, 0, 0, 0, false, false, true, )
-
 				SET_ENTITY_AS_MISSION_ENTITY(animal_holding, 1, 1);
 
 				_UIPROMPT_DELETE(wagon_prompt);
